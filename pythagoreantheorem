@@ -1,0 +1,24 @@
+/*
+ * File: Quadratic.java
+ * --------------------
+ * This program is a stub for the Quadratic problem, which finds the
+ * roots of the quadratic equation.
+ */
+
+import acm.program.*;
+
+public class Quadratic extends ConsoleProgram {
+
+	public void run() {
+	
+		//this is what asks you to enter the length of side "a".
+		double a = readDouble("Enter Side 'A':  ");
+		//this is what asks you to enter the length of side "b".
+		double b = readDouble("enter Side 'B':  ");
+		//this is what generates the length of side "c".
+		double c = Math.sqrt(a*a + b*b);
+		// this is what gives you the answer.
+		println("Side 'C' is " + c + " units long.");
+	}
+}
+
